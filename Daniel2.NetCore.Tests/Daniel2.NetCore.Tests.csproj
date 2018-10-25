@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cinecoder" Version="3.32.2.16662" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Cinecoder.Interop">
+      <HintPath>Cinecoder.Interop.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
